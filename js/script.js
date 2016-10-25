@@ -1,8 +1,8 @@
 angular.module('myApp', ['angularSpinner'])
     .controller('myCtrl', function($scope, $http) {
         // $scope.url = "http://vravishankar-test.apigee.net/coffee";
-        $scope.url = "http://localhost:3000/coffee";
-        // $scope.url = "http://apigee-bench-prod.e2e.apigee.net/test-java-callout";
+        // $scope.url = "http://localhost:3000/coffee";
+        $scope.url = "http://apigee-bench-prod.e2e.apigee.net/test-java-callout";
 
         $scope.types = {
             A: "Espresso",
